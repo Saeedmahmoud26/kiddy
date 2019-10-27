@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-image: url(images/kid.png);
+    height: 800px;
+    background-size: cover;
+}
+.head1{
+    height: 70px;
+    width: 94%;
+    position: relative;
+    display: flex;
+    padding: 15px;
+    margin-left: 40px;
+    justify-content: flex-end;
+    float: left;
+}
+.head1 h1{
+    font-family: sans-serif;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    font-size: 45px;
+    color: #e98c63;
+}
+.head1 .fas{
+    color: darkred;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.head1 span{
+   margin-top: 50px;
+   margin-right: 30px;
+}
+.head1 .far{
+    color: lightseagreen;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.head2{
+    height: 71px;
+    width: 80%;
+    border-radius: 40px;
+    background: #38c79b;
+    margin-top: 55px;
+    position: relative;
+    margin-left: 135px;
+    float: left;
+}
+.head2 ul{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+.head2 ul li{
+    margin: 15px 20px 10px 20px;
+    display: inline-block;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.head2 ul .clr{
+    color: darkred;
+}
+.head2 i{
+    transform: translateX(270px);
+    margin-right: 45px;
+}
+.head2 .fa-facebook-f{
+    color: mediumvioletred;
+}
+.head2 .fa-twitter{
+    color: aqua;
+}
+.head2 .fa-linkedin-in{
+    color: royalblue;
+}
+.clear{
+    clear: both;
+}
+.home .paragraphs{
+    margin: 240px 0 0 90px;
+}
+.home .paragraphs p{
+    margin-bottom: 10px;
+}
+.home .paragraphs .up{
+    color: darkred;
+    font-family: cursive;
+    font-size: 16px;
+}
+.home .paragraphs .mid{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.home .paragraphs .down{
+    font-family: cursive;
+}
+.home .paragraphs .btn{
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    background: darkred;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 30px 0 30px 0;
+    font-family: sans-serif;
+    letter-spacing: 1.5;
+    cursor: pointer;
+}
+.tow{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tow .red{
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    background: #fd4d40;
+    color: white;
+    position: relative;
+}
+.tow .yelow{
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    background: #fdb62f;
+    color: white;
+    position: relative;
+    margin: 0 40px;
+}
+.tow .blue{
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    background: #16c3b0;
+    color: white;
+    position: relative;
+}
+.tow h5{
+    font-family: cursive;
+    margin-top: 55px;
+    font-size: 25px;
+}
+.tow p{
+    font-size: 18px;
+    font-family: cursive;
+}
+.tow .red .cerc{
+    height: 100px;
+    width: 100px;
+    background: #fd4d40;
+    border-radius: 50%;
+    position: absolute;
+    top: -20%;
+    right: 39%;
+}
+.tow .yelow .cerc{
+    height: 100px;
+    width: 100px;
+    background: #fdb62f;
+    border-radius: 50%;
+    position: absolute;
+    top: -20%;
+    right: 39%;
+}
+.tow .blue .cerc{
+    height: 100px;
+    width: 100px;
+    background: #16c3b0;
+    border-radius: 50%;
+    position: absolute;
+    top: -20%;
+    right: 39%;
+}
+.tow .cerc i{
+    margin-top: 25px;
+    font-size: 40px;
+}
+.three{
+    height: 500px;
+    background: beige;
+    position: relative;
+}
+.three img{
+    height: 400px;
+    width: 500px;
+    margin: 50px 130px 0;
+}
+.three span{
+    height: 340px;
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+}
+.three span h6{
+    font-size: 20px;
+    font-family: cursive;
+    color: darkred;
+}
+.three span h4{
+    font-size: 44px;
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+.three span p{
+    font-family: cursive;
+    font-size: 16px;
+}
+.three span .btn{
+    margin-top: 20px;
+    height: 50px;
+    width: 180px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0 30px 0 30px;
+    background: #ffc107;
+    font-family: cursive;
+    letter-spacing: 2;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.four{
+    height: 690px;
+    background: #17a2b8;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.four p{
+    color: darkred;
+    font-family: cursive;
+}
+.four h4{
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-top: 8px;
+}
+.four .pack {
+    height: 400px;
+    width: 320px;
+    background: white;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.four .pack img{
+    height: 100px;
+}
+.four .pack h5{
+    color: aqua;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 20px 0;
+}
+.four .deff h5{
+    color: lightgreen;
+}
+.four .def h5{
+    color: #fd4d40;
+}
+.four .pack p{
+    color: black;
+}
+.four .pack .btn{
+    height: 50px;
+    width: 170px;
+    background: #fd4d40;
+    border-radius: 30px 0 30px 0;
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2;
+    margin: 29px 67px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.four .deff .btn{
+    background: #ffc107;
+}
+.four .def .btn{
+    background: #71bc42;
+}
+.five{
+    height: 600px;
+    display: flex;
+    padding: 103px 87px;
+}
+.five .left{
+    height: 330px;
+    width: 370px;
+    text-align: left;
+    padding: 50px 10;
+}
+.five .left h5{
+    color: darkred;
+    font-family: cursive;
+    font-size: 15px;
+}
+.five .left h4{
+    font-size: 33px;
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+.five .left p{
+    font-family: cursive;
+    line-height: 1.5;
+}
+.five .midl{
+    height: 380px;
+    width: 330px;
+    text-align: left;
+    margin: 0 30px;
+}
+.five .midl .dlr{
+    height: 100px;
+    width: 100px;
+    background-color: #16c3b0;
+    border-radius: 50%;
+    color: white;
+    font-size: 35px;
+    padding: 26px 19px;
+}
+.five .midl h3{
+    font-size: 33px;
+    font-family: sans-serif;
+    margin: 20px 0;
+}
+.five .midl p{
+    font-family: cursive;
+}
+.five .midl p i{
+    color: #16c3b0;
+    margin: 0 9px;
+}
+.five .midl .btn{
+    margin: 55px 0;
+    height: 45px;
+    width: 140px;
+    color: white;
+    background-color: #16c3b0;
+    border-radius: 30px 0 30px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 18px 25px;
+    letter-spacing: 1.5;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.five .right{
+    height: 380px;
+    width: 330px;
+    text-align: left;
+    margin: 0 30px;
+}
+.five .right .dlr{
+    height: 100px;
+    width: 100px;
+    background-color: #fd4d40;
+    border-radius: 50%;
+    font-size: 35px;
+    padding: 26px 19px;
+}
+.five .right h3{
+    font-size: 33px;
+    font-family: sans-serif;
+    margin: 20px 0;
+}
+.five .right p{
+    font-family: cursive;
+}
+.five .right p i{
+    color: #fd4d40;
+    margin: 0 9px;
+}
+.five .right .btn{
+    margin: 55px 0;
+    height: 45px;
+    width: 140px;
+    color: black;
+    background-color: #fd4d40;
+    border-radius: 30px 0 30px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 18px 25px;
+    letter-spacing: 1.5;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.sex{
+    height: 150px;
+    background: #17a2b8;
+    display: flex;
+    justify-content: space-between;
+}
+.sex h2{
+    font-size: 39px;
+    color: white;
+    font-family: sans-serif;
+    margin: 50px 30px;
+}
+.sex .btn{
+    height: 60px;
+    width: 240px;
+    background: #fd4d40;
+    border-radius: 30px 0 30px 0;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 50px;
+    padding: 19px 40px;
+    letter-spacing: 1.5;
+    cursor: pointer;
+}
+.end{
+    height: 500px;
+    background: #38c79b;
+    display: flex;
+}
+.end .left{
+    height: 330px;
+    width: 380px;
+    text-align: left;
+    color: white;
+    padding: 20px;
+    margin: 90px 103px;
+}
+.end .left h5{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fd4d40;
+}
+.end .left p{
+    font-family: cursive;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+.end .left input{
+    height: 40px;
+    padding: 10px;
+    border-radius: 4px;
+    outline: 0;
+    border: 0;
+    margin: 20px 0;
+}
+.end .left .btn {
+    display: inline-block;
+    height: 50px;
+    width: 80px;
+    background: #fd4d40;
+    border-radius: 20px;
+    padding: 15px 22px;
+    font-family: sans-serif;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.end .right{
+    height: 330px;
+    width: 380px;
+    text-align: left;
+    color: white;
+    padding: 20px;
+    margin: 90px 103px;
+}
+.end .right h3{
+    color: #fd4d40;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 10px 0;
+}
+.end .right p{
+    font-family: sans-serif;
+    margin: 9px 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
